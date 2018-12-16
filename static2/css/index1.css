@@ -1,0 +1,20 @@
+@charset "gb2312";
+/* CSS Document */
+
+.clear {clear:both; *display:inline;/*IE only*/}
+
+/*menu*/
+.Menu { width:1000px; margin: 0 auto; height: 46px; background:#8b241f; }
+#nav { display:block; width:1000px; margin: 0 auto; height:46px; background:url(../images/index2_08.gif) no-repeat;}
+#nav .jquery_out {float:left;line-height:46px;display:block; border-right:1px solid #fff; text-align:center; color:#fff;font:18px/32px "微软雅黑"; background:#bd6906 url(../images/slide-panel_03.png) 0 0 repeat-x;}
+#nav .jquery_out .smile {padding-left:1em;}
+#nav .jquery_inner {margin-left:16px;}
+#nav .jquery {margin-right:1px;padding:0 2em;}
+#nav .mainlevel { float:left; background:url(../images/line_26.jpg) no-repeat center right; font-family:"微软雅黑"; font-size:14px;  width:100px;/*IE6 only*/}
+#nav .mainlevel a {color:#ffffff;  text-decoration:none; line-height:46px; display:block; text-align:center;width:100px;}
+#nav .mainlevel a:hover {color:#fff; text-decoration:none; background:#de4019;}
+#nav .mainlevel ul {display:none; position:absolute; z-index:999;}
+#nav .mainlevel li {border-top:1px solid #fff; background:#8b241f; line-height:36px;width:100px;/*IE6 only*/ }
+#nav .mainlevel li a{line-height:36px; font-size:14px; color:#fff; font-weight:normal;}
+#nav .mainlevel li a:hover{ background:#de4019;}
+.log {text-align:center; color:skyblue; line-height:24px; text-transform:capitalize; margin:50px auto;}
